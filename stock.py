@@ -92,7 +92,6 @@ class Stock:
         plt.xlabel("Date")
         plt.ylabel("Percent Gain/Loss (%)")
 
-        # 요구사항: Y축을 퍼센트 형식으로 표시
         ax = plt.gca()
         ax.yaxis.set_major_formatter(mtick.PercentFormatter())
 
